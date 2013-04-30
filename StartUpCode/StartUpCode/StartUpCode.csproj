@@ -44,7 +44,6 @@
     <Compile Include="King-Survival-1\Car.cs" />
     <Compile Include="King-Survival-1\Game.cs" />
     <Compile Include="King-Survival-1\Peshka.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

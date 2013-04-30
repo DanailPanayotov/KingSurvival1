@@ -1,2 +1,6 @@
 F:\Programirane\C#\КПК\TeamWork\StartUpCode\StartUpCode\bin\Debug\StartUpCode.exe.config
 F:\Programirane\C#\КПК\TeamWork\StartUpCode\StartUpCode\obj\Debug\StartUpCode.csprojResolveAssemblyReference.cache
+F:\Programirane\C#\КПК\TeamWork\StartUpCode\StartUpCode\bin\Debug\StartUpCode.exe
+F:\Programirane\C#\КПК\TeamWork\StartUpCode\StartUpCode\bin\Debug\StartUpCode.pdb
+F:\Programirane\C#\КПК\TeamWork\StartUpCode\StartUpCode\obj\Debug\StartUpCode.exe
+F:\Programirane\C#\КПК\TeamWork\StartUpCode\StartUpCode\obj\Debug\StartUpCode.pdb
