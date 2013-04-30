@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA07426C-7D16-48AB-A7AD-028518E7A056}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StartUpCode</RootNamespace>
+    <AssemblyName>StartUpCode</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="King-Survival-1\Car.cs" />
+    <Compile Include="King-Survival-1\Game.cs" />
+    <Compile Include="King-Survival-1\Peshka.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="King-Survival-1\bin\Debug\KingSurvival.vshost.exe.manifest" />
+    <None Include="King-Survival-1\CarqIPeshkite.v11.suo" />
+    <None Include="King-Survival-1\KingSurvival1-start\.git\config" />
+    <None Include="King-Survival-1\KingSurvival1-start\.git\description" />
+    <None Include="King-Survival-1\KingSurvival1-start\.git\HEAD" />
+    <None Include="King-Survival-1\KingSurvival1-start\.git\hooks\README.sample" />
+    <None Include="King-Survival-1\KingSurvival1-start\.git\info\exclude" />
+    <None Include="King-Survival-1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="King-Survival-1\bin\Debug\KingSurvival.vshost.exe" />
+    <Content Include="King-Survival-1\car+peshki.csproj" />
+    <Content Include="King-Survival-1\car+peshki.csproj.user" />
+    <Content Include="King-Survival-1\CarqIPeshkite.sln" />
+    <Content Include="King-Survival-1\KingSurvival1-start\.gitattributes" />
+    <Content Include="King-Survival-1\KingSurvival1-start\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="King-Survival-1\KingSurvival1-start\.git\objects\info\" />
+    <Folder Include="King-Survival-1\KingSurvival1-start\.git\objects\pack\" />
+    <Folder Include="King-Survival-1\KingSurvival1-start\.git\refs\heads\" />
+    <Folder Include="King-Survival-1\KingSurvival1-start\.git\refs\tags\" />
+    <Folder Include="King-Survival-1\obj\Debug\TempPE\" />
+    <Folder Include="King-Survival-1\Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
